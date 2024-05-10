@@ -54,8 +54,8 @@ const HomePage: React.FC = () => {
         {/* {selectedChapter && <p>Selected Chapter: {selectedChapter}</p>} */}
 
         {/* Subjects */}
-        <div className="subjects flex justify-center">
-          <div className="grid-cols-3 grid size-50 gap-5">
+        <div className="subjects flex justify-center w-full">
+          <div className="grid justify-center sm:grid sm:grid-cols-2 md:grid-cols-3 size-50 gap-5 w-full">
             {!selectedSubject &&
               subjects.map((subject) => (
                 <Subject

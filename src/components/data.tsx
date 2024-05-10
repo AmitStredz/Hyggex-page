@@ -32,7 +32,7 @@ export const subjects = [
       "Quadratic Equations",
     ],
   },
-  {
+  {  
     name: "Biology",
     chapters: [
       "Diversity of Living Organisms",
