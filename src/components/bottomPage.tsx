@@ -12,7 +12,7 @@ export default function BottomPage() {
           <img src={logo1} alt="" className="w-[30vh] sm:w-[40vh]" />
         </div>
         <div className="flex items-center gap-3 hover:border-2 border-blue-300 p-3 rounded-3xl transition-[ease] hover:shadow-md cursor-pointer">
-          <div className="text-2xl sm:text-3xl md:text-5xl font-bold bg-gradient-to-b from-[#062970] to-[#164EBF] text-white rounded-[50%] px-2 pb-1 sm:px-3 sm:pb-2 shadow-xl">
+          <div className="text-2xl sm:text-3xl md:text-5xl font-bold bg-gradient-to-b from-[#062970] to-[#164EBF] text-white rounded-[50%] px-2 sm:px-3 sm:pb-2 shadow-xl">
             +
           </div>
           {/* <i className="ri-add-circle-line text-3xl text-[] bg-gradient-to-b from-[#062970] to-[#164EBF] text-white rounded-full p-2"></i> */}
