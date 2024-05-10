@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import logo1 from "./img/logo1.png";
 
 export default function BottomPage() {
