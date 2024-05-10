@@ -68,17 +68,12 @@ export const subjects = [
   // Add more subjects and their corresponding chapters
 ];
 
-const chapterContent: Record<string, string> = {
-  const chapterContent: Record<string, string> = {
-  
-  };
-};
+const chapterContent: Record<string, string> = {};
 
-subjects.forEach(subject => {
-  
-    subject.chapters.forEach(chapter => {
-        chapterContent[chapter] = `9 + 6 +7x - 2x -3`;
-    });
+subjects.forEach((subject) => {
+  subject.chapters.forEach((chapter) => {
+    chapterContent[chapter] = `9 + 6 +7x - 2x -3`;
+  });
 });
 
 export { chapterContent };
