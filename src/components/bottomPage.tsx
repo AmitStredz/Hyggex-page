@@ -7,7 +7,10 @@ export default function BottomPage() {
   const [dropdown3, setdropdown3] = useState(false);
   return (
     <div>
-      <div className="flex items-center justify-between p-8 md:p-16">
+      <div
+        className="flex items-center justify-between p-8 md:p-16"
+        data-aos="fade-up"
+      >
         <div className="">
           <img src={logo1} alt="" className="w-[30vh] sm:w-[40vh]" />
         </div>
@@ -16,17 +19,27 @@ export default function BottomPage() {
             +
           </div>
           {/* <i className="ri-add-circle-line text-3xl text-[] bg-gradient-to-b from-[#062970] to-[#164EBF] text-white rounded-full p-2"></i> */}
-          <p className="text-blue-900 text-lg sm:text-2xl md:text-3xl font-bold">Create Flashcard</p>
+          <p className="text-blue-900 text-lg sm:text-2xl md:text-3xl font-bold">
+            Create Flashcard
+          </p>
         </div>
       </div>
 
       <div className="flex p-10 sm:ml-10 md:ml-20">
         <div className="flex flex-col gap-5 w-full">
-          <h1 className="text-blue-900 font-bold text-5xl mb-10">FAQ</h1>
+          <h1
+            className="text-blue-900 font-bold text-5xl mb-10"
+            data-aos="fade-right"
+          >
+            FAQ
+          </h1>
 
-          <div className="flex flex-col gap-2 w-[100%] lg:w-[60%] ">
+          <div
+            className="flex flex-col gap-2 w-[100%] lg:w-[60%] "
+            data-aos="fade-right"
+          >
             <div
-              className="flex justify-between border-2 border-blue-300 rounded-xl text-lg text-slate-600 p-3 font-semibold cursor-pointer "
+              className="flex justify-between items-center border-2 border-blue-300 rounded-xl text-lg text-slate-600 p-3 font-semibold cursor-pointer "
               onClick={() => setdropdown1(!dropdown1)}
             >
               <h1>Can education flashcards be used for all age groups?</h1>
@@ -56,7 +69,10 @@ export default function BottomPage() {
             </div>
           </div>
 
-          <div className="flex flex-col gap-2  w-[100%] lg:w-[60%] ">
+          <div
+            className="flex flex-col gap-2  w-[100%] lg:w-[60%] "
+            data-aos="fade-right"
+          >
             <div
               className="flex justify-between border-2 border-blue-300 rounded-xl text-lg text-slate-600 p-3 font-semibold cursor-pointer "
               onClick={() => setdropdown2(!dropdown2)}
@@ -89,7 +105,10 @@ export default function BottomPage() {
             </div>
           </div>
 
-          <div className="flex flex-col gap-2 w-[100%] lg:w-[60%] ">
+          <div
+            className="flex flex-col gap-2 w-[100%] lg:w-[60%] "
+            data-aos="fade-right"
+          >
             <div
               className="flex justify-between border-2 border-blue-300 rounded-xl text-lg text-slate-600 p-3 font-semibold cursor-pointer "
               onClick={() => setdropdown3(!dropdown3)}

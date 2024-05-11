@@ -4,7 +4,10 @@ import logo from "./img/logo.png";
 export default function header() {
   return (
     <>
-      <div className="header_class flex justify-between md:p-10 p-7 px-5 sm:px-16 md:px-20 lg:px-28 sticky top-0 bg-white z-10">
+      <div
+        className="header_class flex justify-between md:p-10 p-7 px-5 sm:px-16 md:px-20 lg:px-28 sticky top-0 bg-white z-10"
+        data-aos="fade-down"
+      >
         <div className="min-w-60">
           <img src={logo} alt="logo" className="w-[30vh] cursor-pointer" />
         </div>

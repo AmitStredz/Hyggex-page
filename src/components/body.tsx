@@ -43,7 +43,7 @@ const HomePage: React.FC = () => {
         </div>
 
         {/* Subheading */}
-        <div>
+        <div data-aos="fade-right">
           <h2 className="text-4xl font-bold text-blue-800">
             {selectedChapter || selectedSubject || "Hey! What's it for today..."}
             {selectedChapter ? " (" + selectedSubject + ") " : null}
